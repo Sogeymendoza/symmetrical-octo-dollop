@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+ margin: 0px;
+ padding: 0px;
+ 
+}
+
+html{
+ background-color: #c0c0c0;
+}
+
+p{
+ font-size: 20px
+  
+}
+
+#contenedor{
+ width: 850px;
+ height: 850px;
+ background: #77B6DD;
+ margin: auto;
+ margin-top: 10px;
+ 
+}
+
+header{
+ width: 750px;
+ height: 250px;
+ background: white;
+}
+
+#banner{
+ width: 430px;
+ height: 250px;
+ background: white;
+ float: right;
+}
+
+#logo{
+ height: 120px;
+ width: 90px;
+ background: white;
+ float: left;
+ margin-left: 70px;
+ 
+}
+
+#buscador1{
+ height: 150px;
+ width: 80px;
+ background: white ;
+ margin-left: 70px;
+ 
+}
+nav{
+ 
+ height: 80px;
+ background:#90C6E8 ;
+}
+
+nav ul li{
+ float: left;
+ margin-left: 44px;
+ margin-top: 17px;
+}
+
+nav a{
+ color: white;
+ text-decoration: none;
+ padding: 25px;
+ line-height: 50px;
+ font-family: cambria;
+}
+
+main{
+ height: 400px;
+ background: #EAF1F5;
+}
+
+main img{
+ margin-left: 0px;
+ margin-top: 10px;
+}
+
+
+
+article{
+ width: 500px;
+ height: 400px;
+ background: white;
+ float: center;
+ margin-left: 180px;
+ 
+ 
+}
+
+article h1 {
+ text-align: center;
+ margin-top: 20px;
+
+}
+
+article p{
+ margin-top: 20px
+}
+
+#izquierda {
+ height: 380px;
+ width: 100px;
+ float: left;
+ margin-left: 35px;
+ background: #EAF1F5;
+ margin-top: 20px;
+}
+
+#derecha{
+ height: 400px;
+ width: 100px;
+ background: #EAF1F5;
+ float: right;
+ margin-right: 20px;
+}
+
+img1 {
+ margin-left: 50px;
+ margin-top: 50px;
+ 
+}
+
+img2{
+ margin-left: 50px;
+ margin-top: 50px;
+ 
+}
+
+img3{
+ margin-left: 90px;
+ margin-top: 80px;
+}
+
+
+footer{
+ height: 50px;
+}
+
+#rejilla{
+ display: grid;
+ background: blue;
+ grid-template-columns: 350px ;
+}
+
